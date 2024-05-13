@@ -1,0 +1,38 @@
+.Category {
+    padding: 2rem 7rem;
+}
+.Category > h2 {
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+.Category > p {
+    text-align: center;
+    color: #525252;
+}
+.category-sort {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.category-sort > a {
+    text-decoration: none;
+    color: #525252;
+}
+.category-sort > a:hover {
+    color: #B18165;
+}
+.category-product-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 1rem;
+}
+.category-product-empty {
+    margin: 2rem 1rem;
+    text-align: center;
+    color: #525252;
+}

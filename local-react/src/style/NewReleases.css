@@ -1,0 +1,71 @@
+.NewReleases {
+    padding: 0rem 7rem;
+}
+.new-intro {
+    height: 20rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0% 25%;
+}
+.new-intro > h2 {
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+.new-intro > img {
+    position: absolute;
+    top: 4.5rem;
+    height: 20rem;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.new-category {
+    margin-top: 3rem;
+}
+.new-category > hr {
+    margin-top: 3rem;
+    border: 0.5px solid #BBB3AF;
+}
+.new-category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-category-header > h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.new-category-header > a {
+    text-decoration: none;
+    border: 1px solid black;
+    width: 13rem;
+    text-align: center;
+    padding: 0.75rem;
+    color: black;
+}
+.new-category-header > a:hover {
+    background-color: black;
+    color: white;
+}
+.new-category-body {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.new-category-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 323.8px;
+}

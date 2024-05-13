@@ -1,0 +1,29 @@
+.CardProduct {
+    text-decoration: none;
+}
+.CardProduct > img {
+    width: 100%;
+    aspect-ratio: 1/1.2;
+    object-fit: cover;
+    background-color: #F9F8F7;
+}
+.CardProduct > p {
+    margin-top: 0.25rem;
+}
+.card-product-name {
+    text-transform: uppercase;
+    color: black;
+}
+.card-product-price {
+    color: #8A8A8A;
+}
+
+.CardProduct:hover {
+    cursor: pointer;
+}
+.CardProduct:hover > img {
+    opacity: 0.6;
+}
+.CardProduct:hover > .card-product-name {
+    color: #B18165;
+}

@@ -1,0 +1,53 @@
+.CardBasket {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 2rem;
+    margin: 1.5rem 1rem;
+}
+.CardBasket > a > img {
+    width: 100%;
+    aspect-ratio: 1/1.2;
+    object-fit: cover;
+}
+.CardBasket > a:hover > img {
+    opacity: 0.5;
+}
+
+.card-basket-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-basket-name > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.card-basket-name > a:hover {
+    color: #B18165;
+}
+
+.card-basket-price {
+    margin-top: 0.25rem;
+    color: #525252;
+}
+
+.card-basket-quantity {
+    margin: 2rem 0rem;
+    display: flex;
+    color: #525252;
+    align-items: center;
+}
+.card-basket-quantity > p {
+    font-size: 1.2rem;
+    width: 3rem;
+    text-align: center;
+}
+.card-basket-quantity > a {
+    display: flex;
+    align-items: center;
+    color: #525252;
+}
+.card-basket-quantity > a:hover {
+    color: #B18165;
+}

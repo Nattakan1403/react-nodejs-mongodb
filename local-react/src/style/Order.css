@@ -1,0 +1,62 @@
+.Order {
+    padding: 2rem 7rem;
+}
+.Order > h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+}
+.Order > hr {
+    margin: 1rem 0rem;
+    border: 0.5px solid #CBCBCB;
+}
+.order-content-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+.order-card {
+    border: 1px solid #CBCBCB;
+    padding: 1rem;
+}
+.order-card hr {
+    border: 0.5px solid #CBCBCB;
+    margin: 1rem 0rem;
+}
+.order-card-header {
+    text-align: center;
+}
+.order-card-header > h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.order-card-header > p {
+    color: #525252;
+    margin-top: 0.25rem;
+}
+.order-product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1rem;
+    color: #525252;
+}
+.order-product-item > div {
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+}
+.order-product-item > div > .order-product-quantity {
+    width: 2rem;
+    padding-right: 0.5rem;
+}
+.order-card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.order-card-footer > p {
+    font-weight: 400;
+    font-size: 1.25rem;
+}

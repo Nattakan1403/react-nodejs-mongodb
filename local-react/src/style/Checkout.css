@@ -1,0 +1,80 @@
+.Checkout {
+    padding: 3rem 5.5rem;
+}
+.Checkout > h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+.checkout-content {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 7rem;
+}
+
+.checkout-preview {
+    border-top: 1px solid #CBCBCB;
+}
+.checkout-preview .CardBasket {
+    grid-template-columns: 2fr 10fr;
+    margin: 1rem;
+}
+.checkout-preview hr {
+    border: 0.5px solid #CBCBCB;
+}
+
+.checkout-card-content {
+    border: 1px solid #CBCBCB;
+    padding: 2rem;
+}
+.checkout-card-header > h2 {
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.checkout-card-body {
+    margin: 1rem;
+}
+.checkout-card-body > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0rem;
+}
+.checkout-card-body > div > div {
+    display: flex;
+}
+.checkpot-card-quantity {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+.checkpot-card-name {
+    text-transform: capitalize;
+}
+
+.checkout-card-footer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.checkout-card-footer > div {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.checkout-card-footer > div > p {
+    font-size: 1.2rem;
+}
+.checkout-card-footer > a {
+    background-color: black;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+}
+
+

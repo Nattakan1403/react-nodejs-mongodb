@@ -1,0 +1,218 @@
+.Navbar {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 3000;
+}
+.nav-container {
+    height: 4.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #BBB3AF;
+    padding: 0rem 2rem;
+    background-color: white;
+    z-index: 3000;
+}
+.nav-container a:hover {
+    color: #B18165 !important;
+}
+
+/* menu */
+.nav-menu > a {
+    text-decoration: none;
+    color: #525252;
+    margin: 0rem 1rem;
+}
+
+/* home */
+.nav-home {
+    text-align: center;
+}
+.nav-home > a {
+    text-decoration: none;
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5rem;
+}
+
+/* account */
+.nav-account {
+    text-align: end;
+}
+.nav-account > div > a {
+    text-decoration: none;
+    color: #525252;
+    margin: 0rem 1rem;
+}
+
+/* on click action : close */
+.nav-close-action {
+    opacity: 0;
+    visibility: hidden;
+}
+.nav-open-action {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* nav dropdown */
+.nav-category {
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #F9F8F7;
+    box-shadow: 0px 2px 2px #BBB3AF;
+}
+.nav-category > a {
+    margin: 0.5rem 0rem;
+    text-decoration: none;
+    color: #525252;
+}
+.nav-category > a:hover {
+    color: #B18165;
+}
+
+.nav-like {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5252527a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-like-content {
+    width: 50rem;
+    height: 35rem;
+    background-color: white;
+}
+.nav-like-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #CBCBCB;
+}
+.nav-like-header > div {
+    display: flex;
+    align-items: center;
+}
+.nav-like-header > div > h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+.nav-like-header > a {
+    color: black;
+}
+.nav-like-body {
+    height: calc(35rem - 78px);
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+.nav-like-body-empty {
+    height: calc(35rem - 78px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-basket {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5252527a;
+    display: flex;
+    justify-content: end;
+}
+.nav-basket-content {
+    width: 35%;
+    height: 100%;
+    background-color: white;
+}
+.nav-basket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #CBCBCB;
+}
+.nav-basket-header > div {
+    display: flex;
+    align-items: center;
+}
+.nav-basket-header > div > h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+.nav-basket-header > a {
+    color: black;
+}
+.nav-basket-body {
+    height: calc(100% - (78px * 2));
+    overflow: auto;
+    padding: 0rem 2rem;
+}
+.nav-basket-body hr {
+    border: 0.5px solid #CBCBCB;
+}
+.nav-basket-footer {
+    height: 78px;
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    border-top: 1px solid #CBCBCB;
+}
+.nav-basket-footer > a {
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-admin, .nav-client {
+    position: absolute;
+    top: 4.5rem;
+    right: 0;
+    background-color: #F9F8F7;
+    display: flex;
+    flex-direction: column;
+}
+.nav-admin > a, .nav-client > a {
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    width: 15rem;
+    border: 1px solid #BBB3AF;
+    border-top: 0;
+    color: #525252;
+}
+.nav-admin > a:hover, .nav-client > a:hover {
+    background-color: #B18165;
+    color: white;
+}
+
+.nav-account-open {
+   display: block; 
+}
+.nav-account-close {
+    display: none; 
+}
